@@ -19,7 +19,6 @@ module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@typescript-eslint/parser',
-    requireConfigFile: false,
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
