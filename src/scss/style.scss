@@ -1,1 +1,6 @@
-@import 'vendor/normalize'; 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'vendor/normalize';
+@import 'variables/variables';
