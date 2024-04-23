@@ -2,5 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'vendor/normalize';
+@import 'vendor/reset';
 @import 'variables/variables';
+@import 'layouts/base';
+@import 'variables/tailwind';
