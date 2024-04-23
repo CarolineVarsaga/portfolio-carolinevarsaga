@@ -1,0 +1,23 @@
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-col-center {
+  @apply flex items-center flex-col;
+}
+
+.flex-between {
+  @apply flex items-center justify-between;
+}
+
+.grid-4812 {
+  @apply grid grid-cols-4 md:grid-cols-8 xl:grid-cols-12;
+}
+
+.primary-button {
+  @apply bg-backgroundButton hover:to-backgroundButtonHover text-center cursor-pointer h-[35px] w-[150px] rounded-[12px] border-none text-white shadow-button;
+}
+
+.section-heading {
+  @apply text-[1.5rem] font-bold;
+}
