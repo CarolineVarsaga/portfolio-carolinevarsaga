@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="flex flex-col gap-4 px-4 py-6 bg-backgroundFourth">
     <SectionHeading text="Kontakta mig" />
     <p>E-post: carolinevarsaga@gmail.com</p>
     <p>Tel: 073-0840995</p>

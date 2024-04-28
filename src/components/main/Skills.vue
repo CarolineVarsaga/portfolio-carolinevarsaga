@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col gap-4 items-start">
     <p>Kompetenser:</p>
-    <ul>
+    <ul class="pl-14">
       <Skill v-for="(skill, index) in skills" :key="index" :skill="skill" />
     </ul>
   </div>

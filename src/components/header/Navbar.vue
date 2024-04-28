@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-end gap-[0.5rem] h-full">
+  <nav class="flex items-end justify-end gap-[2rem] h-full list-none">
     <NavButton v-for="(button, index) in navButtons" :key="index" :button="button" />
   </nav>
 </template>

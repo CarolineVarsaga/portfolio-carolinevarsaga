@@ -1,5 +1,5 @@
 <template>
-  <li>{{ skill }}</li>
+  <li class="list-disc cursor-pointer text-left">{{ skill }}</li>
 </template>
 
 <script setup lang="ts">
