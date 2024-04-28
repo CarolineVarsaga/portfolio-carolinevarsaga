@@ -1,19 +1,9 @@
 <template>
-  <section>
+  <section class="border-y border-solid px-4 py-6 flex flex-col gap-4 bg-backgroundFourth border-borderColor">
     <SectionHeading text="LIA - Lärande i arbete" />
-    <p>Under hösten 2024 går jag ut på min första LIA-period. Då kommer jag ha mer än 1 års studier i bagaget.</p>
-    <p>
-      Jag önskar en LIA-plats där jag kan fortsätta utvecklas och få använda min kreativa sida till att bygga upp
-      hemsidor/webbapplikationer. Ser framemot att lära mig mer inom bland annat SCSS och JavaScript.
-    </p>
+    <LIADescription />
     <Skills />
-    <p>LIA-period 1: 14 oktober 2024 - 20 december 2024</p>
-    <p>LIA-period 2: 3 februari 2025 - 23 maj 2025</p>
-    <p>
-      Utbildningens hemsida:
-      <a href="https://medieinstitutet.se/utbildningar/front-end-developer/" target="_blank">Front End Developer</a>
-    </p>
-
+    <LIAPeriods />
     <PrimaryButton text="Kontakta mig" />
   </section>
 </template>
@@ -22,6 +12,8 @@
 import PrimaryButton from '../shared/PrimaryButton.vue';
 import SectionHeading from '../shared/SectionHeading.vue';
 import Skills from './Skills.vue';
+import LIAPeriods from './LIAPeriods.vue';
+import LIADescription from './LIADescription.vue';
 </script>
 
 <style scoped></style>
