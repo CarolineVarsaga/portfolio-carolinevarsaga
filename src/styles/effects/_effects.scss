@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+  text-align: center;
+  a {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+    width: 70px;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      right: 50%;
+      width: auto;
+      height: 1px;
+      background-color: $backgroundButtonHover;
+      transition: left 0.3s ease-out, right 0.3s ease-out;
+      z-index: -1;
+      border-radius: 1px 0 0 1px;
+    }
+    &:hover::before {
+      left: 0;
+      right: 0;
+      border-radius: 1px;
+    }
+  }
+}
