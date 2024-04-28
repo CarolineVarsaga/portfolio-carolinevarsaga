@@ -3,6 +3,11 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'laptop-mobile': "url('/src/assets/images/laptop_mobile.jpg')",
+        'laptop-tablet': "url('/src/assets/images/laptop_tablet.jpg')",
+        'laptop-desktop': "url('/src/assets/images/laptop_desktop.jpg')",
+      },
       colors: {
         backgroundPrimary: '#f8f7f4',
         backgroundFooter: '#d3d2d2',
@@ -10,6 +15,7 @@ export default {
         backgroundFourth: '#f0f0f0',
         backgroundDot: '#bbb',
         backgroundButton: '#a43bc4',
+        backgroundButtonHover: '#9133ad',
         borderColor: '#ececec',
         color: '#434746',
       },
@@ -19,7 +25,7 @@ export default {
       fontFamily: {
         fontSegoe: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
         fontHandlee: ['Handlee', 'cursive'],
-        fontDancing: ['Handlee', 'cursive'],
+        fontDancing: ['Dancing Script', 'cursive'],
       },
     },
   },
