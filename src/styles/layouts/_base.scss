@@ -4,8 +4,19 @@
   padding: 0;
 }
 
+html,
+body,
+#app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: $backgroundPrimary;
   font-family: $fontSegoe;
   color: $colorPrimary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
