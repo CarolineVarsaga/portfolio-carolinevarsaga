@@ -9,10 +9,9 @@ import { defineProps } from 'vue';
 
 const props = defineProps<{ text: string; href?: string }>();
 
-const scrollToAnchor = async () => {
+const scrollToAnchor = () => {
   if (props.href) {
     const anchor = document.querySelector(props.href);
-    console.log(anchor);
     if (anchor) {
       anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
