@@ -14,9 +14,9 @@ interface INavButton {
 }
 
 const navButtons = ref<INavButton[]>([
-  { text: 'Om mig', href: '' },
-  { text: 'Portfolio', href: '' },
-  { text: 'Kontakt', href: '' },
+  { text: 'Om mig', href: '#lia' },
+  { text: 'Portfolio', href: '#projects' },
+  { text: 'Kontakt', href: '#contact' },
 ]);
 </script>
 
