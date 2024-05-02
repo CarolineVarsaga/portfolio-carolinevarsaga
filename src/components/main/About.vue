@@ -8,7 +8,7 @@
         och brinner för att omsätta kreativa designkoncept till responsiva, användarvänliga webbsidor. Min strävan är
         att skapa estetiskt tilltalande digitala upplevelser baserade på semantiskt uppbyggd kodstruktur.
       </p>
-      <PrimaryButton text="Portfolio" />
+      <PrimaryButton text="Portfolio" href="#projects" />
     </div>
   </section>
 </template>
