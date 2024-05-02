@@ -10,8 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import GithubLogo from '../../assets/icons/github.svg';
-import LinkedinLogo from '../../assets/icons/linkedin.svg';
+import GithubLogo from '../../../assets/icons/github.svg';
+import LinkedinLogo from '../../../assets/icons/linkedin.svg';
 </script>
 
 <style scoped></style>
