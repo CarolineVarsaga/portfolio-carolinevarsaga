@@ -63,7 +63,7 @@ const prevSlide = () => {
 };
 
 const changeStateBasedOnPosition = (number: number) => {
-  states.value = states.value.map((state, index) => {
+  states.value = states.value.map((_, index) => {
     if (index === number) return true;
     else {
       return false;
