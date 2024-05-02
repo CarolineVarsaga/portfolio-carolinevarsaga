@@ -27,3 +27,58 @@ li {
     }
   }
 }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 10;
+  }
+}
+
+.next,
+.prev {
+  bottom: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px 0 0 3px;
+  position: absolute;
+}
+
+.next {
+  right: 2%;
+  .next svg {
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 5rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 20;
+  }
+}
+
+.prev {
+  left: 2%;
+
+  .prev svg {
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 5rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 20;
+  }
+}
