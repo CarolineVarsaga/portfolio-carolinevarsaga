@@ -16,6 +16,7 @@ export default {
         backgroundDot: '#bbb',
         backgroundButton: '#a43bc4',
         backgroundButtonHover: '#9133ad',
+        backgroundProject: 'rgba(235, 235, 235,.85)',
         borderColor: '#ececec',
         color: '#434746',
       },
